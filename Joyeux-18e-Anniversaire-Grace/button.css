@@ -1,0 +1,81 @@
+body {
+  font-family: 'Fleur De Leah', cursive;
+  font-size: 40px;
+  color: #1F212B;
+  background-color: #D9E5D6;
+  height: 500px;
+  width: 580px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: 'Lora', serif;
+  font-size: 12px;
+}
+
+#promise {
+  display: none;
+  font-family: 'Lora', serif;
+  font-size: 10px;
+}
+
+.trail {
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  border-radius: 1px;
+  background: #0fa3b1;
+}
+
+#tri1,
+#tri2 {
+  z-index: 0;
+}
+
+#tri1 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 100px 200px 100px;
+  border-color: transparent transparent #FCE0A2 transparent;
+  -webkit-animation: fadeit 1.1s linear infinite;
+  -moz-animation: fadeit 1.1s linear infinite;
+  animation: fadeit 1.1s linear infinite;
+}
+
+#tri2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 200px 200px 0;
+  border-color: transparent #FCE0A2 transparent transparent;
+  -webkit-animation: fadeit 1.1s linear infinite;
+  -moz-animation: fadeit 1.1s linear infinite;
+  animation: fadeit 1.1s linear infinite;
+}
+
+@-webkit-keyframes fadeit{
+     0%{
+          opacity:1;
+     }
+     100%{
+          opacity:0;
+     }
+}
+@-moz-keyframes fadeit{
+     0%{
+          opacity:1;
+     }
+     100%{
+          opacity:0;
+     }
+}
+@keyframes fadeit{
+     0%{
+          opacity:1;
+     }
+     100%{
+          opacity:0;
+     }
+}
