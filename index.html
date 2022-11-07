@@ -15,9 +15,10 @@
         }
 
         htmlString += '</ul>';
-        document.getElementsByTagName('body')[0].innerHTML = htmlString;
+        document.getElementById('directorylisting').innerHTML = htmlString;
       })()
     </script>
+    <div id="directorylisting"></div>
     <h1>Steps to integrate GitHub with Visual Studio Code</h1>
     <ol>
       <li>Edit on GitHub</li>
