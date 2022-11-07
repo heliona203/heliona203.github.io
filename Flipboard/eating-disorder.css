@@ -1,0 +1,22 @@
+#header {
+    font-family: 'Bungee Shade', cursive;
+    margin-right: 10px;
+}
+
+#content {
+    font-family: 'Cinzel', serif;
+}
+
+div {
+    display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px #ff0000;
+}
