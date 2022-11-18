@@ -11,7 +11,7 @@ let french=['https://france-amerique.com/en/']
 let listening=['https://innerfrench.com/podcast/', 'https://soundcloud.com/talktomeinkorean/sets']
 let korean=['http://www.koreatimes.co.kr/www/sublist_740.html']
 let chinese=['https://supchina.com/']
-let blogs=['https://labmuffin.com/', 'https://lettersofnote.com/', 'http://kerrycallen.blogspot.com/', 'https://teachlivingpoets.com/', 'https://languagehat.com/', 'https://theletmeeatcake.com/', 'https://www.marinagrosshoy.com/', 'https://eatwell.healthy.ucla.edu/', 'https://www.dictionaryofobscuresorrows.com/', 'http://overthinkingdesign.com/', 'https://booksandbao.com/']
+let blogs=['https://labmuffin.com/', 'https://lettersofnote.com/', 'http://kerrycallen.blogspot.com/', 'https://teachlivingpoets.com/', 'https://languagehat.com/', 'https://theletmeeatcake.com/', 'https://www.marinagrosshoy.com/', 'https://eatwell.healthy.ucla.edu/', 'https://www.dictionaryofobscuresorrows.com/', 'http://overthinkingdesign.com/', 'https://booksandbao.com/', 'https://specialtyproduce.com/']
 let poetry=['http://www.manifold.group.shef.ac.uk/', 'https://femmagazine.com/category/arts-and-creative/']
 let poetryspanish=['http://huizachemag.org/', 'https://www.granta.com.es/']
 let poetryfrench=['https://lapageblanche.com/']
@@ -25,6 +25,7 @@ iframe.setAttribute("src", randomNonmain);
 iframe.style.width = "470px";
 iframe.style.height = "500px";
 iframe.style.float = "right";
+iframe.style.loading = "lazy";
 myNonmain1.appendChild(iframe);
 
 const mySpanish = document.getElementById("spanish");
@@ -35,6 +36,7 @@ iframe.style.width = "470px";
 iframe.style.height = "500px";
 iframe.style.float = "right";
 iframe.style.marginBottom = "10px";
+iframe.style.loading = "lazy";
 mySpanish.appendChild(iframe);
 /*
 var newNonmain = nonmain.splice(nonmain.indexOf(randomNonmain));
